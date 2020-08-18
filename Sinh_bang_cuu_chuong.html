@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinh bảng cửu chương</title>
+</head>
+<body>
+<script>
+    document.write("<table border='1px solid black' width='100%'>");
+    for (n=1;n<=9;n++) {
+        document.write("<tr>");
+        for (m=2;m<=9;m++) {
+            document.write("<td>"+m+"x"+n+"="+(m*n)+"</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+</script>
+</body>
+</html>

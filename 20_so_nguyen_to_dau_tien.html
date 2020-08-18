@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra 20 số nguyên tố đầu tiên</title>
+</head>
+<body>
+<script>
+    let N = 1;
+    for (let num = 2; N <= 20; num++) {
+        if (check(num) === true) {
+            document.write(num + "<br>");
+            N++;
+        }
+    }
+
+    function check(n) {
+        let count = 0;
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                count += 1;
+            }
+        }
+        if (count == 0) {
+            return true;
+        } else
+            return false;
+    }
+</script>
+</body>
+</html>
