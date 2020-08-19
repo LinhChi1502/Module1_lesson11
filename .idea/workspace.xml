@@ -23,7 +23,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selflearn/thanh_test.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +37,7 @@
       <workItem from="1597627109229" duration="14878000" />
       <workItem from="1597665532137" duration="8035000" />
       <workItem from="1597707750835" duration="5884000" />
+      <workItem from="1597717086907" duration="4822000" />
     </task>
     <servers />
   </component>

@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Vẽ tam giác vuông 3</title>
+    <title>In hình chữ nhật</title>
 </head>
 <body>
 <script>
-    for(let i=5;i>=1;i--) {
-        for (let j = 1;j<=5;j++) {
-            if (j>=i) {
+    let m = parseInt(prompt("Nhập chiều dài: "));
+    let n = parseInt(prompt("Nhập chiều rộng: "));
+    for (let i=1;i<=n;i++) {
+        for (let k=1;k<=m;k++) {
+            if (i==1||i==n||k==1||k==m) {
                 document.write("*");
             } else {
                 document.write("&nbsp;&nbsp;");
